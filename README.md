@@ -16,14 +16,17 @@ with the unique key that openexchangerates is going to give you, when creating a
 In order to use your unique key with the app  you need to change the actual key inside the file `Server/config/currencyAPI.js`
 then change the value of the property `app_id`
 ***
+
 ###Using the App
 #####Download Repository
 #####Install Client Dependencies
 1. Using CLI go to the project main folder
 2. run command: `npm install`
+
 #####Install Server Dependencies
 1. Using CLI go to the project server folder
 2. run command: `npm install`
+
 #####Open MongoDB shell
 1. If you don't have mongoDB already installed, install it
 2. If you have already installed mongoDB then just go to `program Files/mongoDB/Server/3.2/bin/mongod.exe`
